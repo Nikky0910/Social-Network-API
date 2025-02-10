@@ -1,27 +1,27 @@
 const { Schema, model } = require('mongoose');
-const Response = require('./Response');
+const Reaction = require('./Reaction');
 
 // Schema to create Post model
 const thoughtSchema = new Schema(
   {
-    published: {
-      type: Boolean,
-      default: false,
+    thoughtText: {
+      type: String,
+      minLength: 1,
+      maxLength: 280,
+      required: true,
     },
     createdAt: {
       type: Date,
       default: Date.now,
+      get: (date)=> {
+        return date.toLocaleDateString() // built-in date converter to display MM/DD/YYYY 
+      }
     },
-    advertiserFriendly: {
-      type: Boolean,
-      default: true,
-    },
-    description: {
+    username: {
       type: String,
-      minLength: 8,
-      maxLength: 500,
+      required: true,
     },
-    responses: [Response],
+    reactions: [Reaction],
   },
   {
     toJSON: {
@@ -33,10 +33,10 @@ const thoughtSchema = new Schema(
 
 // Create a virtual property `responses` that gets the amount of response per thought
 thoughtSchema
-  .virtual('getResponses')
+  .virtual('reactionCOunt')
   // Getter
   .get(function () {
-    return this.responses.length;
+    return this.reactions.length;
   });
 
 // Initialize our Thought model
