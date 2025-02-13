@@ -74,8 +74,8 @@ Follow these steps to set up and run the e-commerce back-end project locally:
 
 Please refer to the following video to run the application:
 
-<a href = "https://drive.google.com/file/d/1ux-8z7w04e9rc2W0YgppNqNzOkmAYPS4/view?usp=sharing"> Click here to watch the video</a>
+<a href = "https://drive.google.com/file/d/1gg98Gk7z6wYrr9PCC6o48PoUtPlOJL2D/view?usp=drive_link"> Click here to watch the video</a>
 
-Please refer to the following video on how to test the api endpoints using Insomnia: 
+Please refer to the following video on how to test the api routes using Insomnia: 
 
-<a href = "https://drive.google.com/file/d/1V_M42tEqaGuADHuEFivhkFzLZIspZyZC/view?usp=sharing"> Click here to watch the video</a>
+<a href = "https://drive.google.com/file/d/1zY1RC2hRNI8l9cxjpruehJjwOwx08Rzc/view?usp=drive_link"> Click here to watch the video</a>
