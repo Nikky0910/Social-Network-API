@@ -79,3 +79,7 @@ Please refer to the following video to run the application:
 Please refer to the following video on how to test the api routes using Insomnia: 
 
 <a href = "https://drive.google.com/file/d/1zY1RC2hRNI8l9cxjpruehJjwOwx08Rzc/view?usp=drive_link"> Click here to watch the video</a>
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
