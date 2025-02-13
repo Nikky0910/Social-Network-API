@@ -34,7 +34,7 @@ Follow these steps to set up and run the e-commerce back-end project locally:
    ```bash
    npm install
     ```
-6. **Start the server**  
+4. **Start the server**  
    Launch the application by running:
 
    ```bash
@@ -42,7 +42,7 @@ Follow these steps to set up and run the e-commerce back-end project locally:
     ```
     The server should start on  http://localhost:3001 or the port specified in your environment variables.
 
-7. **Test the API**
+5. **Test the API**
    Use a tool like Insomnia or Postman to test the API routes.
 
 ## API Routes
